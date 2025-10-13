@@ -393,7 +393,7 @@ function App() {
         {/* Footer */}
         <footer className={`py-8 text-center ${isDark ? 'bg-gray-900/50' : 'bg-gray-100/50'} backdrop-blur-sm`}>
           <p className={isDark ? 'text-gray-400' : 'text-gray-600'}>
-            © 2025 Mohammed Adnan P. Built with React & Tailwind CSS
+           <span className='font-bold'>©</span> 2025 Adnan. All Rights Reserved.
           </p>
         </footer>
 
