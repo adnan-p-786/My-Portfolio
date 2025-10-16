@@ -63,8 +63,9 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                MA
+                &lt;/&gt;
               </div>
+
 
               <div className="hidden md:flex items-center space-x-8">
                 {navItems.map((item) => (
@@ -127,7 +128,7 @@ function App() {
           <div className="max-w-7xl mx-auto text-center">
             <motion.div className="animate-fade-in-up">
               <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-gradient">
-                Mohammed Adnan P
+                Hi, I'm Adnan
               </h1>
               <p className="text-2xl md:text-3xl mb-4 font-light">Full Stack Developer</p>
               <p className={`text-lg md:text-xl mb-8 max-w-2xl mx-auto ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
@@ -174,7 +175,7 @@ function App() {
                   <div className={`p-6 rounded-xl ${isDark ? 'bg-gray-900/50' : 'bg-gray-50'} mb-6`}>
                     <h4 className="font-bold text-lg mb-2">MERN Stack Intern</h4>
                     <p className="text-purple-400 mb-2">Rootsys International</p>
-                    <p className={`text-sm mb-3 ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>March 2025 - Present | Kottakkal</p>
+                    <p className={`text-sm mb-3 ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>October 2024 - Present | Kottakkal</p>
                     <p className={`${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
                       Contributing to the Audit-Info CRM project, enhancing skills in full-stack development and CRM solutions.
                     </p>
@@ -187,19 +188,21 @@ function App() {
                     <ul className={`space-y-2 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
                       <li>• MERN Stack Development - Rootsys International</li>
                       <li>• NETD Certification - Rootsys International</li>
+                      <li>• AI Appreciate - Intel</li>
+                      <li>• AI Aware - Intel</li>
                     </ul>
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-semibold mb-4">Professional Summary</h3>
+                  <h3 className="text-2xl font-semibold mb-4">Summary</h3>
                   <p className={`mb-4 leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                    Full Stack Developer with 1 year of experience specializing in the MERN stack (MongoDB, Express.js, React, Node.js). 
+                    Passionate Full Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js), with a strong focus on building fast, scalable, and user-focused web applications.
                   </p>
                   <p className={`mb-4 leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                    Passionate about building responsive web applications and optimizing API performance, achieving a 40% boost in user retention through innovative solutions.
+                    Currently interning at Rootsys International, where I contribute to developing a CRM platform that enhances data management and workflow efficiency.
                   </p>
                   <p className={`mb-6 leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                    Seeking opportunities to create scalable, user-focused solutions in dynamic tech environments.
+                    I enjoy turning complex problems into clean, intuitive solutions from crafting responsive UIs to optimizing backend performance. Always eager to learn new technologies, collaborate with creative teams, and deliver impactful digital experiences that make a difference.
                   </p>
                   <div className={`p-6 rounded-xl ${isDark ? 'bg-gray-900/50' : 'bg-gray-50'}`}>
                     <h4 className="font-bold text-lg mb-3">Education</h4>
@@ -371,14 +374,14 @@ function App() {
                   <Github className="text-blue-400" size={28} />
                   <div>
                     <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>GitHub</p>
-                    <p className="font-semibold">mohdadnanp21</p>
+                    <p className="font-semibold">https://github.com/adnan-p-786</p>
                   </div>
                 </a>
                 <a href="https://www.linkedin.com/in/mohd-adnan-p" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-4 p-6 rounded-xl transition-all duration-300 transform hover:scale-105 ${isDark ? 'bg-gray-900/50 hover:bg-indigo-900/30' : 'bg-gray-50 hover:bg-indigo-50'}`}>
                   <Linkedin className="text-indigo-400" size={28} />
                   <div>
                     <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>LinkedIn</p>
-                    <p className="font-semibold">mohdadnanp21</p>
+                    <p className="font-semibold">https://www.linkedin.com/in/mohd-adnan-p</p>
                   </div>
                 </a>
               </div>
@@ -393,7 +396,7 @@ function App() {
         {/* Footer */}
         <footer className={`py-8 text-center ${isDark ? 'bg-gray-900/50' : 'bg-gray-100/50'} backdrop-blur-sm`}>
           <p className={isDark ? 'text-gray-400' : 'text-gray-600'}>
-           <span className='font-bold'>©</span> 2025 Adnan. All Rights Reserved.
+            <span className='font-bold'>©</span> 2025 Adnan. All Rights Reserved.
           </p>
         </footer>
 
