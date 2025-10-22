@@ -374,14 +374,14 @@ function App() {
                   <Github className="text-blue-400" size={28} />
                   <div>
                     <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>GitHub</p>
-                    <p className="font-semibold">https://github.com/adnan-p-786</p>
+                    <p className="font-semibold">github.com</p>
                   </div>
                 </a>
                 <a href="https://www.linkedin.com/in/mohd-adnan-p" target="_blank" rel="noopener noreferrer" className={`flex items-center gap-4 p-6 rounded-xl transition-all duration-300 transform hover:scale-105 ${isDark ? 'bg-gray-900/50 hover:bg-indigo-900/30' : 'bg-gray-50 hover:bg-indigo-50'}`}>
                   <Linkedin className="text-indigo-400" size={28} />
                   <div>
                     <p className={`text-sm ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>LinkedIn</p>
-                    <p className="font-semibold">https://www.linkedin.com/in/mohd-adnan-p</p>
+                    <p className="font-semibold">www.linkedin.com</p>
                   </div>
                 </a>
               </div>
